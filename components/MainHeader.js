@@ -53,11 +53,11 @@ const MainHeader = () => {
              </Box>
             </Grid>
             <Grid item xs={8} sm={8} md={3} lg={3} sx={{display:"flex",justifyContent:"right",alignItems:"center"}}>
-                 <Button variant='contained' sx={{display:"flex",mr:"15px",bgcolor:"#ef5350",'&:hover':{bgcolor:"#ef5350"},fontSize:"12px",alignItems:"center",justifyContent:"center",p:"5px 5px 5px 5px"}} onClick={loginHandler}>
-                    <Person2OutlinedIcon sx={{fontSize:"18px"}}/>Login
+                 <Button variant='contained' sx={{display:"flex",mr:"15px",bgcolor:"#ef5350",'&:hover':{bgcolor:"#ef5350"},fontSize:{lg:"12px",md:"12px",sm:"10px",xs:"10px"},alignItems:"center",justifyContent:"center",p:"5px 5px 5px 5px"}} onClick={loginHandler}>
+                    <Person2OutlinedIcon sx={{fontSize:{lg:"18px",md:"18px",sm:"16px",xs:"13px"},mt:"-2px"}}/>Login
                  </Button>
-                 <Button variant='contained' sx={{display:"flex",bgcolor:"#4caf50",'&:hover':{bgcolor:"#4caf50"},mr:"10px",fontSize:"12px",alignItems:"center",justifyContent:"center",p:"5px 5px 5px 5px"}} onClick={signupHandler}>
-                    <Person2OutlinedIcon sx={{fontSize:"18px"}}/>SignUp
+                 <Button variant='contained' sx={{display:"flex",bgcolor:"#4caf50",'&:hover':{bgcolor:"#4caf50"},mr:"10px",fontSize:{lg:"12px",md:"12px",sm:"10px",xs:"10px"},alignItems:"center",justifyContent:"center",p:"5px 5px 5px 5px"}} onClick={signupHandler}>
+                    <Person2OutlinedIcon sx={{fontSize:{lg:"18px",md:"18px",sm:"16px",xs:"13px"},mt:"-2px"}}/>SignUp
                  </Button>
             </Grid>
                     <Grid item xs={1.5} sx={{ display:{lg:"flex",md:"flex",sm:"none",xs:"none"}, justifyContent: "flex-end", alignItems: "center", height: "100%" }}>
